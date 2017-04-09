@@ -1,0 +1,24 @@
+<html>
+    <head>
+        {% block meta %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Bootstrap Admin App + jQuery">
+        <meta name="keywords" content="app, responsive, jquery, bootstrap, dashboard, admin">
+        {% endblock %}
+        {% block title %}
+            <title>Angle - Bootstrap Admin Template</title>
+        {% endblock %}
+        {% include 'angle/styles.html' %}
+        {% block additional_css %}
+        {% endblock %}
+        {% block additional_header_javascript %}
+        {% endblock %}
+    </head>
+    <body>
+        {% block content %}
+        
+        {% endblock %}
+        {% include 'angle/javascript.html' %}
+    </body>
+</html>

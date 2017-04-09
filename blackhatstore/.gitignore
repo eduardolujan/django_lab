@@ -1,0 +1,8 @@
+# User
+.idea/
+.idea/*
+*.pyc
+*.egg-info
+docs/_build
+
+.DS_Store
